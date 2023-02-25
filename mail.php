@@ -25,7 +25,7 @@
    
     $fromname =$name;
     $fromemail = 'noreply@crypteriumform.com';  //if u dont have an email create one on your cpanel
-    $mailto = 'crypteriumro@gmail.com';  //the email which u want to recv this email
+    $mailto = 'cristisandu@csx.ro';  //the email which u want to recv this email
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));
     // a random hash will be necessary to send mixed content
